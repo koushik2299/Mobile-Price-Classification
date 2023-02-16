@@ -1,23 +1,32 @@
 # Mobile-Price-Classification
+This project is designed to help Bob, a new entrepreneur who started his mobile factory and designed different mobiles with different specifications. The project aims to train machine learning models and classify the prices of Bob's new devices using existing data from popular mobile brands such as Apple and Samsung.
 
-Problem Statement: 
+# Dataset Description
+The dataset used in this project has 21 attributes and 2000 observations. Each observation corresponds to a mobile device and includes features such as battery power, clock speed, RAM, internal memory, and more. The target variable is the price range of the device, which is divided into four categories (0, 1, 2, 3) representing different price ranges.
 
-Bob is a new entrepreneur who started his mobile factory and designed different mobiles with different specifications. After designing all the mobiles, he is having trouble setting the correct prices for the devices he has created. 
+# Models Used and Respective Accuracies
+Four machine learning models were used to classify the price range of the mobile devices in the dataset. The accuracies of each model are as follows:
 
-So in this project using the existing data of existing mobile brands such as Apple, and Samsung… we are planning to train our machine learning models and classify the prices of our new devices.
+1.Support Vector Machine: 98%
 
-Dataset Description:
+2.Random Forest: 90%
 
-21 Attributes
+3.K-Nearest Neighbors: 93%
 
-2000 Observations
+4.Decision Tree: 84%
 
-Models Used and Respective Accuracies:
+# Results
 
-1.Support Vector Machine (98%)
+The machine learning models were trained on the dataset, and their accuracies were evaluated using cross-validation. The best performing model was the Support Vector Machine with an accuracy of 98%.
 
-2.Random Forest (90%)
+# Next Steps
 
-3.KNN(93%)
+Here are some potential next steps to explore with this project:
 
-4.Decision Tree(84%)
+Try using other machine learning algorithms and compare their performance with the existing models.
+Collect more data to expand the dataset and potentially improve the models' accuracy.
+Experiment with feature selection and feature engineering techniques to see if they can improve the models' performance.
+# Acknowledgments
+
+The dataset used in this project was obtained from Kaggle.
+The project was inspired by Bob, the new entrepreneur who started his mobile factory!
